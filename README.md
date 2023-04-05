@@ -11,7 +11,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Awesome Book\] ](#-awesome-book-)
+- [📖 \[To-Do-List\] ](#-to-do-list-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -29,7 +29,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Awesome Book] <a name="about-project"></a>
+# 📖 [To-Do-List] <a name="about-project"></a>
 
 **[To Do list: list structure]** is a webpage for managing and displaying tasks.
 
