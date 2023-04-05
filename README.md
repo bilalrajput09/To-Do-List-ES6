@@ -1,68 +1,162 @@
-# Set-up-project-with-webpack-starter# setup-project-with-webpack
+<a name="readme-top"></a>
 
-Build a simple yet powerful webpack boilerplate, which I can later use as a starting point in your projects
+<div align="center">
 
-Instructions:
+  <h3><b>To Do list: list structure</b></h3>
 
-Initialize a new project and install webpack
+</div>
 
-- First set up a new GitHub repository for this exercise.
-- Follow the instructions from the getting started guide (https://webpack.js.org/guides/getting-started/#basic-setup) to set up the basics. Implement all the steps from Basic Setup to NPM Scripts.
+<!-- TABLE OF CONTENTS -->
 
-Add HTML
+# 📗 Table of Contents
 
-- You already know that all the distribution files will be placed in /dist directory. You also know that you should not create files manually in the /dist folder, as there's a risk they will be overwritten. Therefore, install the HtmlWebpackPlugin to automatically create the index.html file in the /dist directory.
-- Follow the instructions from the setting up HtmlWebpackPlugin guide (https://webpack.js.org/guides/output-management/#setting-up-htmlwebpackplugin). Be extra careful when updating the module.exports object in your webpack.config.js file, to not to make any nesting mistakes.
-- Now delete all the files from the /dist directory and run:
-  npm run build
-- Check your /dist folder. If it contains a new index.html file, it means you were successful.
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 \[Awesome Book\] ](#-awesome-book-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Usage](#usage)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
-HTML template
+<!-- PROJECT DESCRIPTION -->
 
-- If you plan to write some HTML in your project, it's easiest to do it with a template. Create a /src/index.html in which you can write your markup. Add some basic page markup, like:
+# 📖 [Awesome Book] <a name="about-project"></a>
 
+**[To Do list: list structure]** is a webpage for managing and displaying tasks.
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>HTML</summary>
+  <ul>
+    <li><a href="https://en.wikipedia.org/wiki/HTML">HTML</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>JavaScript</summary>
+  <ul>
+    <li><a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a></li>
+  </ul>
+</details>
+<details>
+  <summary>Webpack</summary>
+  <ul>
+    <li><a href="https://webpack.js.org/concepts/">Webpack</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **[local storage]**
+- **[Edit_&_delete]**
+- **[Filter_drag_&_drop]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link]()
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+```sh
+sudo apt install git-all
+or
+npm install
 ```
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wbpack Exercise</title>
-</head>
-<body>
-    <h1>Hello webpack!</h1>
-</body>
-</html>
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```sh
+  cd my-folder
+  git clone https://github.com/bilalrajput09/To-Do-List-ES6.git
 ```
 
-- Then modify webpack.config.js to point HtmlWebpackPlugin towards your template file:
+### Usage
 
+To run the project, execute the following command:
+
+```sh
+  Open index.html in browser
+  or
+  open with Live server in Vscode
 ```
-plugins: [
-  new HtmlWebpackPlugin({
--   title: 'Output Management',
-+   template: './src/index.html',
-  }),
-],
-```
 
-- You could remove the title property as well (as shown above), because you have set the page title in your /src/index.html.
-- Run npm run build to update the /dist/index.html.
-  View the /dist/index.html file in a code editor and notice how webpack inserted a <script> tag with correct path and minified the HTML for better performance.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Add CSS
+<!-- AUTHORS -->
 
-The next step in building your webpack boilerplate is to add some style to it. Follow the steps in loading CSS guide (https://webpack.js.org/guides/asset-management/#loading-css).
+## 👥 Authors <a name="authors"></a>
 
-- In your style.css file add a generic rule, like:
-  body {
-  background-color: bisque;
-  }
-- Next, execute npm run build and check if the HTML body style has changed.
+👤 **Bilal Ahmed**
 
-Setup local dev server
+- GitHub: [@bilalrajput09](https://github.com/bilalrajput09)
+- Twitter: [@bilal_rajput09](https://twitter.com/bilal_rajput09)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/bilal-ahmed-18b12019a/)
 
-Finally, it's time to improve your developer experience. When working on the project you will not want to run the build command from the terminal every time you make a change in the code. Therefore go ahead and install a webpack dev server, which will watch your source files, generate compiled distribution files and even refresh the browser every time you save changes in the source code.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- Follow the using webpack-dev-server guide (https://webpack.js.org/guides/development/#using-webpack-dev-server) and set it up on your local machine. Again, be cautious with updating the module.exports object in your webpack.config.js.
-- Once these steps are complete, you should see your application working at: http://localhost:8080/. Every change you make in js or css files now should be reflected in a browser a few seconds later.
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[Dynamic Features]**
+- [ ] **[Transitions Using CSS]**
+- [ ] **[Animations Features]**
+- [ ] **[More User Friendly]**
+- [ ] **[Backend Properties]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+Look at what I did !! Your support matters a lot
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+---> I express my gratitude to the Microverse team for granting us the opportunity to collaborate on this project. <br>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./license) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
