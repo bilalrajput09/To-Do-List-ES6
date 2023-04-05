@@ -47,10 +47,11 @@ body {
 }
 
 #input_text {
-  width: 100%;
+  /* width: 100%; */
   border: none;
   padding: 0.5em;
   font-size: 20px;
+  width: 85%;
 }
 
 .hidden {
@@ -65,4 +66,22 @@ i {
   width: 100%;
   font-size: 18px;
   padding: 0.5em;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.submit_btn {
+  float: right;
+  align-self: center;
+  font-size: 16px;
+  padding: 0.7em 0.3em;
+  width: 15%;
+  background-color: white;
+  font-weight: 700;
+  border: 1px solid black;
 }

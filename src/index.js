@@ -19,8 +19,7 @@ const renderList = () => {
   toDoTasks.forEach((task, i) => {
     html = `<div class="items">
         <li>
-          <i class="far fa-square"></i>
-          <i class="fas fa-check-circle hidden"></i>
+          <input type="checkbox" class="checkbox" ${task.completed ? 'checked' : ''}>
           ${task.description}
         </li>
         <i class="fas fa-trash-alt hidden"></i>
