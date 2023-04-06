@@ -52,6 +52,7 @@ const itemsDelAndEdit = () => {
         const index = e.target.closest('.fa-trash-alt').parentNode.parentNode.id;
 
         deletingTask(index, tasks);
+        rearrangeIndex(tasks);
         setLocalStorage(tasks);
         document.location.reload();
       }
