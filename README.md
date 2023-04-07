@@ -62,7 +62,7 @@
 
 - **[local storage]**
 - **[Edit_&_delete]**
-- **[Filter_drag_&_drop]**
+- **[Filter]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
