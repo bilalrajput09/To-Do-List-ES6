@@ -121,7 +121,7 @@ To run the project, execute the following command:
 
 - GitHub: [@bilalrajput09](https://github.com/bilalrajput09)
 - Twitter: [@bilal_rajput09](https://twitter.com/bilal_rajput09)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/bilal-ahmed-18b12019a/)
+- LinkedIn: [@bilalahmed](https://www.linkedin.com/in/bilal-ahmed-18b12019a/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
