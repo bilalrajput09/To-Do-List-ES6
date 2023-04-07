@@ -81,7 +81,18 @@ i {
   font-size: 16px;
   padding: 0.7em 0.3em;
   width: 15%;
-  background-color: white;
+  background-color: rgb(100, 160, 100);
   font-weight: 700;
+  color: white;
   border: 1px solid black;
+}
+
+.checked {
+  text-decoration: line-through;
+  background-color: bisque;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
 }
