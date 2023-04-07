@@ -63,6 +63,7 @@
 - **[local storage]**
 - **[Edit_&_delete]**
 - **[Filter]**
+- **[Checked]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
