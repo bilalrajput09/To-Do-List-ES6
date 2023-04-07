@@ -74,7 +74,7 @@
 
 ## 🚀 Screenshot <a name="screenshot"></a>
 
-![image](./assets/project%20screenshot.png)
+![image](./src/assests/Capture.JPG)
 
 <!-- GETTING STARTED -->
 
