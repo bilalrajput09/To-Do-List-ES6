@@ -69,7 +69,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo](https://bilalrajput09.github.io/first_capstone_project_concert_webpage/)
+- [Live Demo](https://bilalrajput09.github.io/To-Do-List-ES6/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
