@@ -30,7 +30,7 @@
 
 # 📖 [To-Do-List] <a name="about-project"></a>
 
-**[To Do list: list structure]** is a webpage for managing and displaying tasks.
+**[To Do list: ]** is a webpage for managing and displaying tasks. Its a project where i test my javascript and webpack programming skills.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -65,6 +65,16 @@
 - **[Filter_drag_&_drop]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo](https://bilalrajput09.github.io/first_capstone_project_concert_webpage/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Screenshot <a name="screenshot"></a>
+
+![image](./assets/project%20screenshot.png)
 
 <!-- GETTING STARTED -->
 
