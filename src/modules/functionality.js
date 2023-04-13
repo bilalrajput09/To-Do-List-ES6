@@ -24,4 +24,7 @@ const checkboxfunCompleted = (checkbox, arrayOfObject) => {
     if (check.checked) arrayOfObject[i].completed = true;
     else arrayOfObject[i].completed = false;
   });
+  return arrayOfObject;
 };
+
+export default checkboxfunCompleted;
