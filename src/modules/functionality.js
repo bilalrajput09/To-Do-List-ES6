@@ -18,3 +18,13 @@ export const checkboxfun = (checkbox, arrayOfObject) => {
     });
   });
 };
+
+const checkboxfunCompleted = (checkbox, arrayOfObject) => {
+  checkbox.forEach((check, i) => {
+    if (check.checked) arrayOfObject[i].completed = true;
+    else arrayOfObject[i].completed = false;
+  });
+  return arrayOfObject;
+};
+
+export default checkboxfunCompleted;
